@@ -1,0 +1,7 @@
+Running: xsim.dir/FourBitSubtractor_behav/xsimk.exe -simmode gui -wdb FourBitSubtractor_behav.wdb -simrunnum 0 -socket 63867
+Design successfully loaded
+Design Loading Memory Usage: 7980 KB (Peak: 7980 KB)
+Design Loading CPU Usage: 61 ms
+Simulation completed
+Simulation Memory Usage: 8624 KB (Peak: 8624 KB)
+Simulation CPU Usage: 155 ms
