@@ -12,7 +12,7 @@
 // Description: 
 // 
 // Dependencies: 
-// 
+//
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:
@@ -32,5 +32,7 @@ module RollShiftLeft(
     assign out[2] = A[1]; 
     assign out[1] = A[0]; 
     assign out[0] = A[3]; 
+    
+    assign c_out = 0; 
     
 endmodule

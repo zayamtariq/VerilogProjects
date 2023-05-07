@@ -33,4 +33,6 @@ module ShiftRight(
     assign out[1] = A[2]; 
     assign out[0] = A[1]; 
     
+    assign c_out = 0; 
+    
 endmodule

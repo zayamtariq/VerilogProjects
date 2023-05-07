@@ -33,4 +33,6 @@ module ShiftLeft(
     assign out[1] = A[0]; 
     assign out[0] = 0; 
     
+    assign c_out = 0; 
+    
 endmodule

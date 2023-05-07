@@ -33,4 +33,6 @@ module FourBitBitwiseAnd(
     assign out[1] = A[1] & B[1]; 
     assign out[0] = A[0] & B[0]; 
     
+    assign c_out = 0; 
+    
 endmodule
