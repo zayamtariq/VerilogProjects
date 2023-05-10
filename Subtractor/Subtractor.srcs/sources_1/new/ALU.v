@@ -11,14 +11,14 @@ module ALU(
     
     always @* begin // the @* indicates that block updates whenever any input (signal) changes 
     case (control)
-        3'b000: FourBitAdder(A, B, b_in, out, c_out); 
-        3'b001: FourBitSubtractor(A, B, b_in, out, c_out); 
-        3'b010: FourBitBitwiseOr(A, B, b_in, out, c_out); 
-        3'b011: FourBitBitwiseAnd(A, B, b_in, out, c_out); 
-        3'b100: ShiftLeft(A, B, b_in, out, c_out); 
-        3'b101: ShiftRight(A, B, b_in, out, c_out); 
-        3'b110: RollShiftLeft(A, B, b_in, out, c_out); 
-        3'b111: RollShiftRight(A, B, b_in, out, c_out); 
+        3'b000: FourBitAdder one(A, B, b_in, out, c_out); 
+        3'b001: FourBitSubtractor two (A, B, b_in, out, c_out); 
+        3'b010: FourBitBitwiseOr three (A, B, b_in, out, c_out); 
+        3'b011: FourBitBitwiseAnd four (A, B, b_in, out, c_out); 
+        3'b100: ShiftLeft five (A, B, b_in, out, c_out); 
+        3'b101: ShiftRight six (A, B, b_in, out, c_out); 
+        3'b110: RollShiftLeft seven (A, B, b_in, out, c_out); 
+        3'b111: RollShiftRight eight (A, B, b_in, out, c_out); 
     endcase 
     end
 endmodule
